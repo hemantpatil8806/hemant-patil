@@ -16,6 +16,13 @@ int main()
 			scanf("%d", &matrix[i][j]);	
 		}
 	}
+	    printf("\n original matrix:\n");
+	    	for(i = 0; i < rows; i++){
+	    	for(j = 0; j < cols; j++){
+	    	printf("%d\t",matrix[i][j]);
+	    }
+	    printf("\n");
+	}
 	
 	for(i = 0; i < rows; i++)
 	{
